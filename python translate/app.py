@@ -6,9 +6,9 @@ from googletrans import Translator
 root = Tk()
 root.title('gg dich')
 root.geometry("510x590")
-root.iconbitmap(r'h:\file\python translate\logo.ico')
+root.iconbitmap(r'h:\python\file\python translate\logo.ico')
 
-loat = Image.open(r'h:\file\python translate\background.jpg')
+loat = Image.open(r'h:\python\file\python translate\background.jpg')
 render = ImageTk.PhotoImage(loat)
 img = Label(root,image = render)
 img.place(x=0,y=0)
